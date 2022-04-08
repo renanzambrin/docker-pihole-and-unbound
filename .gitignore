@@ -1,0 +1,6 @@
+### IntelliJ IDEA
+*.iml
+/.idea/
+
+### Environment Variable
+.env
