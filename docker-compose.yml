@@ -12,7 +12,7 @@ services:
       - "8080:80/tcp"
       - "8443:443/tcp"
     environment:
-      ServerIP: $PIHOLE_IP_ADDRESS
+      FTLCONF_REPLY_ADDR4: $PIHOLE_IP_ADDRESS
       TZ: $PIHOLE_TIMEZONE
       WEBTHEME: "default-dark"
       WEBPASSWORD: $PIHOLE_PASSWORD
