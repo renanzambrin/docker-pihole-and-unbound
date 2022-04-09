@@ -12,9 +12,13 @@ PIHOLE_IP_ADDRESS=<ip-address>
 
 ### How to run
 
-Build image and start container
+Build image
 
-```docker-compose up --build -d```
+```docker-compose build```
+
+Run image
+
+```docker-compose up -d```
 
 ### Troubleshooting
 
